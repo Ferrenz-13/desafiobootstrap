@@ -1,0 +1,114 @@
+/*Index htlm*/
+.fondo-nav{
+background-color: blue;
+}
+.jumbotron{
+    background-image: url(../Imagenes/Volkswagencoloridos.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    color: orange;
+    font-size: 60px;
+    text-decoration: solid;
+    border-radius: 0;
+    margin-bottom: 0;
+    }
+    .jumbotron p{
+        font-size: 40px;
+        color: orange;
+    }
+    .jumbotron h1{
+        font-size: 60px;
+    }
+h2{
+    text-align: center;
+    background-color: rgb(199, 203, 245);
+    color: blue;
+    text-transform: capitalize;
+    padding: 15px;
+    font-size: 35px;
+    margin-bottom: 0;
+}
+
+.nosotros{
+    height: 500px;
+    width: 100%;
+    font-size: 60px;
+    background-color: lightslategrey;
+}
+.row{
+    height: 500px;
+}
+.nleft{
+    background-color: aqua;
+    background-image: url(../Imagenes/primerageneracionn.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.ncenter{
+    background-color: antiquewhite;
+    background-image: url(../Imagenes/segundageneracionn.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.nright{
+    background-color: cornflowerblue;
+    background-image: url(../Imagenes/tercerageneracion.jpg);
+    background-size: cover;
+    background-position: center;
+}
+h3{
+    color: orangered;
+    font-size: 50px;
+    text-align: center;
+}
+.textg{
+    color: orangered;
+    font-size: 15px;
+    text-align: center;
+}
+.p_envios{
+    text-align: center;
+    background-color: rgb(199, 203, 245);
+    margin-bottom: 0;
+    font-size: 30px;
+    color: rgb(38, 94, 192);
+    padding: 20px;
+}
+/*Footer*/
+.footer{
+    color: black;
+    height: 160px;
+    background-color: blue;
+    text-align: center;
+    padding: 22px;
+    min-height: 90px;
+}
+.footer p{
+    font-size: 23px;
+    text-transform: capitalize;
+}
+.footer a{
+    color:black;
+}
+.footer a :hover{
+    color: brown;
+}
+.footer i{
+    font-size: 40px;
+    letter-spacing: 23px;
+}
+
+
+/*Conductores html*/
+/*Cards*/
+.h1conductores{
+    color: blue;
+    background-color:rgb(199, 203, 245) ;
+    text-align: center;
+    padding: 25px;
+}
+.card-img-top{
+    background-size: cover;
+    background-position: center;
+}
