@@ -34,6 +34,15 @@ h2 {
   margin-bottom: 0;
 }
 
+h4 {
+  text-align: center;
+  background-color: rgb(199, 203, 245);
+  color: blue;
+  text-transform: capitalize;
+  padding: 25px;
+  margin: 0;
+}
+
 .nosotros {
   height: 500px;
   width: 100%;
