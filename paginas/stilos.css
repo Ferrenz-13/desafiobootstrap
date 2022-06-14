@@ -10,7 +10,8 @@
   height: 450px;
   color: orange;
   font-size: 60px;
-  text-decoration: solid;
+  -webkit-text-decoration: solid;
+          text-decoration: solid;
   border-radius: 0;
   margin-bottom: 0;
 }
@@ -26,7 +27,7 @@
 
 h2 {
   text-align: center;
-  background-color: rgb(199, 203, 245);
+  background-color: #c7cbf5;
   color: blue;
   text-transform: capitalize;
   padding: 15px;
@@ -36,7 +37,7 @@ h2 {
 
 h4 {
   text-align: center;
-  background-color: rgb(199, 203, 245);
+  background-color: #c7cbf5;
   color: blue;
   text-transform: capitalize;
   padding: 25px;
@@ -89,10 +90,10 @@ h3 {
 
 .p_envios {
   text-align: center;
-  background-color: rgb(199, 203, 245);
+  background-color: #c7cbf5;
   margin-bottom: 0;
   font-size: 30px;
-  color: rgb(38, 94, 192);
+  color: #265ec0;
   padding: 20px;
 }
 
@@ -128,7 +129,7 @@ h3 {
 /*Cards*/
 .h1conductores {
   color: blue;
-  background-color: rgb(199, 203, 245);
+  background-color: #c7cbf5;
   text-align: center;
   padding: 25px;
 }
@@ -137,5 +138,4 @@ h3 {
   background-size: cover;
   background-position: center;
 }
-
 /*# sourceMappingURL=stilos.css.map */

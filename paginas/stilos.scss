@@ -1,6 +1,15 @@
+$primary-color: blue;
+$secondary-color: orange;
+$terciary_color: rgb(199, 203, 245);
+$four_color: orangered;
+
+@mixin generaciones{
+    background-size: cover;
+    background-position: center;
+}
 /*Index htlm*/
 .fondo-nav {
-    background-color: blue;
+    background-color: $primary-color;
 }
 
 .jumbotron {
@@ -8,7 +17,7 @@
     background-size: cover;
     background-position: center;
     height: 450px;
-    color: orange;
+    color: $secondary-color;
     font-size: 60px;
     text-decoration: solid;
     border-radius: 0;
@@ -17,7 +26,7 @@
 
 .jumbotron p {
     font-size: 40px;
-    color: orange;
+    color: $secondary-color;
 }
 
 .jumbotron h1 {
@@ -26,8 +35,8 @@
 
 h2 {
     text-align: center;
-    background-color: rgb(199, 203, 245);
-    color: blue;
+    background-color: $terciary_color;
+    color: $primary-color;
     text-transform: capitalize;
     padding: 15px;
     font-size: 35px;
@@ -35,8 +44,8 @@ h2 {
 }
 h4{
     text-align: center;
-    background-color: rgb(199, 203, 245);
-    color: blue;
+    background-color: $terciary_color;
+    color: $primary-color;
     text-transform: capitalize;
     padding: 25px;
     margin: 0;
@@ -55,39 +64,36 @@ h4{
 .nleft {
     background-color: aqua;
     background-image: url(../Imagenes/primerageneracionn.jpg);
-    background-size: cover;
-    background-position: center;
+    @include generaciones()
 }
 
 .ncenter {
     background-color: antiquewhite;
     background-image: url(../Imagenes/segundageneracionn.jpg);
-    background-size: cover;
-    background-position: center;
+    @include generaciones()
 }
 
 .nright {
     background-color: cornflowerblue;
     background-image: url(../Imagenes/tercerageneracion.jpg);
-    background-size: cover;
-    background-position: center;
+    @include generaciones()
 }
 
 h3 {
-    color: orangered;
+    color: $four_color;
     font-size: 50px;
     text-align: center;
 }
 
 .textg {
-    color: orangered;
+    color: $four_color;
     font-size: 15px;
     text-align: center;
 }
 
 .p_envios {
     text-align: center;
-    background-color: rgb(199, 203, 245);
+    background-color: $terciary_color;
     margin-bottom: 0;
     font-size: 30px;
     color: rgb(38, 94, 192);
@@ -98,7 +104,7 @@ h3 {
 .footer {
     color: black;
     height: 160px;
-    background-color: blue;
+    background-color: $primary-color;
     text-align: center;
     padding: 22px;
     min-height: 90px;
